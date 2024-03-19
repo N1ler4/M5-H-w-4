@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles/output.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="bg-[#f1f2f499]">
+    <div
+      class="container mx-auto flex justify-between items-center p-[15px] text-[#5E6670]"
+    >
+      <ul class="flex gap-[24px]">
+        <li class="underline text-[#0A65CC]"><a href="#!">Home</a></li>
+        <li><a href="#!">Find Job</a></li>
+        <li><a href="#!">Employers</a></li>
+        <li><a href="#!">Candidates</a></li>
+        <li><a href="#!">Pricing Plans</a></li>
+        <li><a href="#!">Customer Supports</a></li>
+      </ul>
+      <ul class="flex gap-[24px]">
+        <li class="flex items-center">
+          <box-icon name="phone"></box-icon>
+          <a href="tel:+12025550178">+1-202-555-0178</a>
+        </li>
+        <li class="flex items-center">
+          <img src="./Images/image 1.png" alt="" />
+          <select name="" id="">
+            <option value="Eng">English</option>
+            <option value="Rus">Rus</option>
+            <option value="Uzb">Uzb</option>
+          </select>
+        </li>
+      </ul>
+    </div>
+    <header class="bg-white p-[10px]">
+      <nav
+        class="container mx-auto flex justify-between items-center px-[15px]"
+      >
+        <div class="flex items-center gap-[32px]">
+          <img src="./Images/Logo (1).svg" alt="" />
+          <div class="flex items-center">
+            <img src="./Images/image 1 (1).png" alt="" />
+            <select name="" id="">
+              <option value="India">India</option>
+              <option value="Eng">English</option>
+            </select>
+          </div>
+          <label for="" class="flex items-center p-3 gap-2">
+            <box-icon name="search"></box-icon>
+            <input
+              type="text"
+              placeholder="Job tittle, keyword, company"
+              class="w-[219px] outline-none"
+            />
+          </label>
+        </div>
+        <div>
+          <button
+            class="px-[24px] py-[8px] text-[#0A65CC] border-[#CEE0F5] border rounded-[3px]"
+          >
+            Sign in
+          </button>
+          <button
+            class="px-[24px] py-[8px] bg-[#0A65CC] text-white rounded-[3px]"
+          >
+            Post a Jobs
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container mx-auto px-[15px] py-[60px]">
+        <div class="flex justify-between items-center">
+          <div class="flex flex-col gap-[24px]">
+            <h1 class="text-[56px] font-semibold w-[550px] text-[#18191C]">
+              Find a job that suits your interest & skills.
+            </h1>
+            <p class="text-[18px] w-[480px] text-[#5E6670]">
+              Aliquam vitae turpis in diam convallis finibus in at risus. Nullam
+              in scelerisque leo, eget sollicitudin velit bestibulum.
+            </p>
+            <form action="./index.html" class="flex bg-white p-3 w-[629px]">
+              <label for="" class="flex items-center p-[15px] bg-white gap-2">
+                <box-icon name="search" color="#0066ff"></box-icon>
+                <input
+                  type="text"
+                  class="outline-none"
+                  placeholder="Job tittle, Keyword..."
+                />
+              </label>
+              <label
+                for=""
+                class="flex items-center p-[15px] bg-white gap-2 border-l"
+              >
+                <box-icon name="current-location" color="#0066ff"></box-icon>
+                <input
+                  type="text"
+                  class="outline-none"
+                  placeholder="Your Location"
+                />
+              </label>
+              <button
+                class="px-[18px] py-[8px] bg-[#0A65CC] text-white rounded-[3px]"
+              >
+                Find Job
+              </button>
+            </form>
+            <span class="flex gap-1 text-[#474C54]">
+              <p class="text-[#9199A3]">Suggestion:</p>
+              Designer, Programing,
+              <p class="text-[#0A65CC]">Digital Marketing,</p>
+              Video, Video,
+            </span>
+          </div>
+          <img src="./Images/Illustration.png" alt="" />
+        </div>
+        <div class="flex justify-between mt-[100px]">
+          <div
+            class="flex items-center w-[280px] gap-3 bg-white rounded-[8px] shadow-xl px-[10px] py-[5px]"
+          >
+            <div class="p-[16px] bg-[#E7F0FA] rounded-md hover:bg-[#0A65CC]">
+              <box-icon name="briefcase" color="#0066ff"></box-icon>
+            </div>
+            <div>
+              <h3 class="text-[#18191C] text-[24px]">1,75,324</h3>
+              <p class="text-[#767F8C] text-[16px]">Live Job</p>
+            </div>
+          </div>
+          <div
+            class="flex items-center w-[280px] gap-3 bg-white rounded-[8px] shadow-xl px-[10px] py-[5px]"
+          >
+            <div class="p-[16px] bg-[#E7F0FA] rounded-md hover:bg-[#0A65CC]">
+              <box-icon name="buildings" color="#0066ff"></box-icon>
+            </div>
+            <div>
+              <h3 class="text-[#18191C] text-[24px]">97,354</h3>
+              <p class="text-[#767F8C] text-[16px]">Companies</p>
+            </div>
+          </div>
+          <div
+            class="flex items-center w-[280px] gap-3 bg-white rounded-[8px] shadow-xl px-[10px] py-[5px]"
+          >
+            <div class="p-[16px] bg-[#E7F0FA] rounded-md hover:bg-[#0A65CC]">
+              <box-icon name="user" color="#0066ff"></box-icon>
+            </div>
+            <div>
+              <h3 class="text-[#18191C] text-[24px]">38,47,154</h3>
+              <p class="text-[#767F8C] text-[16px]">Candidates</p>
+            </div>
+          </div>
+          <div
+            class="flex items-center w-[280px] gap-3 bg-white rounded-[8px] shadow-xl px-[10px] py-[5px]"
+          >
+            <div class="p-[16px] bg-[#E7F0FA] rounded-md hover:bg-[#0A65CC]">
+              <box-icon name="briefcase" color="#0066ff"></box-icon>
+            </div>
+            <div>
+              <h3 class="text-[#18191C] text-[24px]">7,532</h3>
+              <p class="text-[#767F8C] text-[16px]">New Jobs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white py-[20px]">
+        <div class="p-[15px] container mx-auto">
+          <h1 class="text-[40px] text-[#18191C] mb-[50px]">
+            Most Popular Vacancies
+          </h1>
+          <ul class="flex flex-wrap justify-between gap-y-[32px]">
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Anesthesiologists
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">45,904 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Surgeons
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">50,364 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Obstetricians-Gynecologists
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">4,339 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Orthodontists
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">20,079 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Maxillofacial Surgeons
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">74,875 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Software Developer
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">43359 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Psychiatrists
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">18,599 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Data Scientist
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">28,200 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Financial Manager
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">61,391 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Management Analysis
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">93,046 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                IT Manager
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">50,963 Open Positions</p>
+            </li>
+            <li class="w-[300px]">
+              <h4
+                class="text-[#18191C] text-[18px] cursor-pointer hover:text-[#0A65CC] duration-500"
+              >
+                Operations Research Analysis
+              </h4>
+              <p class="text-[#767F8C] text-[14px]">16,627 Open Positions</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="py-[100px]">
+        <div class="container mx-auto">
+          <h1 class="text-center text-[#18191C] text-[40px] mb-[50px]">
+            How jobpilot work
+          </h1>
+          <div class="flex">
+            <div
+              class="w-[312px] flex flex-col justify-center items-center gap-[15px]"
+            >
+              <div class="p-[25px] bg-white w-[72px] h-[72px] rounded-full">
+                <box-icon name="user-plus" color="#0066ff"></box-icon>
+              </div>
+              <h3 class="text-[#18191C] text-[18px]">Create account</h3>
+              <p class="text-[14px] text-[#767F8C] w-[224px] text-center">
+                Aliquam facilisis egestas sapien, nec tempor leo tristique at.
+              </p>
+            </div>
+            <div class="absolute">
+              <img
+                src="./Images/Arrows (1).svg"
+                alt=""
+                class="relative left-[200px]"
+              />
+            </div>
+            <div
+              class="w-[312px] flex flex-col justify-center items-center gap-[15px] bg-white rounded-[12px] h-[224px]"
+            >
+              <div class="p-[25px] bg-[#0A65CC] w-[72px] h-[72px] rounded-full">
+                <box-icon name="cloud-upload" color="#FFFFFF"></box-icon>
+              </div>
+              <h3 class="text-[#18191C] text-[18px]">Upload CV/Resume</h3>
+              <p class="text-[14px] text-[#767F8C] w-[224px] text-center">
+                Curabitur sit amet maximus ligula. Nam a nulla ante. Nam sodales
+              </p>
+            </div>
+            <div class="absolute">
+              <img
+                src="./Images/Arrows.svg"
+                alt=""
+                class="relative left-[520px] top-[90px]"
+              />
+            </div>
+            <div
+              class="w-[312px] flex flex-col justify-center items-center gap-[15px]"
+            >
+              <div class="p-[25px] bg-white w-[72px] h-[72px] rounded-full">
+                <box-icon name="search-alt" color="#0066ff"></box-icon>
+              </div>
+              <h3 class="text-[#18191C] text-[18px]">Find suitable job</h3>
+              <p class="text-[14px] text-[#767F8C] w-[224px] text-center">
+                Phasellus quis eleifend ex. Morbi nec fringilla nibh.
+              </p>
+            </div>
+            <div class="absolute">
+              <img
+                src="./Images/Arrows (1).svg"
+                alt=""
+                class="relative left-[820px]"
+              />
+            </div>
+            <div
+              class="w-[312px] flex flex-col justify-center items-center gap-[15px]"
+            >
+              <div class="p-[25px] bg-white w-[72px] h-[72px] rounded-full">
+                <box-icon
+                  name="badge-check"
+                  type="solid"
+                  color="#0066ff"
+                ></box-icon>
+              </div>
+              <h3 class="text-[#18191C] text-[18px]">Apply job</h3>
+              <p class="text-[14px] text-[#767F8C] w-[224px] text-center">
+                Curabitur sit amet maximus ligula. Nam a nulla ante, Nam sodales
+                purus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-white py-[100px]">
+        <div class="container mx-auto px-[15px]">
+          <h1 class="text-[40px] text-[#18191C] px-[10px] mb-[50px]">Popular category</h1>
+          <div class="flex flex-wrap justify-between gap-4">
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name="pen" color="#0066ff"></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Graphics & Design</h3>
+                <p class="text-[#767F8C] text-[16px]">357 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name="code-alt" color="#0066ff"></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Code & Programing</h3>
+                <p class="text-[#767F8C] text-[16px]">312 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon
+                  name="megaphone"
+                  type="solid"
+                  color="#0066ff"
+                ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Digital Marketing</h3>
+                <p class="text-[#767F8C] text-[16px]">297 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name='desktop' color='#0066ff' ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Video & Animation</h3>
+                <p class="text-[#767F8C] text-[16px]">247 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name='music' color='#0066ff' ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Music & Audio</h3>
+                <p class="text-[#767F8C] text-[16px]">204 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name='bar-chart-alt-2' type='solid' color='#0066ff' ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Account & Finance</h3>
+                <p class="text-[#767F8C] text-[16px]">167 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name='plus-medical' color='#0066ff' ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Health & Care</h3>
+                <p class="text-[#767F8C] text-[16px]">125 Open position</p>
+              </div>
+            </div>
+            <div
+              class="flex items-center w-[300px] gap-3 bg-white rounded-[8px] px-[10px] py-[5px]"
+            >
+              <div class="p-[16px] bg-[#E7F0FA] rounded-md">
+                <box-icon name='data' color='#0066ff' ></box-icon>
+              </div>
+              <div>
+                <h3 class="text-[#18191C] text-[24px]">Data & Science</h3>
+                <p class="text-[#767F8C] text-[16px]">57 Open position</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>
